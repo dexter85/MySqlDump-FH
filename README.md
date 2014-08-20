@@ -10,8 +10,8 @@ Mysqldump backup the function and procedure at the end of file, when restore dat
 ==========================
 
 For use this simple script:
-[code]
+<pre>
 ./mysqldump-fh.sh -u userName -p password -d databaseName -h host -o /output/path.sql
-[/code]
+</pre>
 
 Cooming Soon
