@@ -1,4 +1,4 @@
-MySqlDump-FunctionAndAllDb
+MySqlDump-FH
 ==========================
 
 Simple script to backup first the function then all database using mysqldump. 
