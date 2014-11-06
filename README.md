@@ -1,4 +1,4 @@
-MySqlDump-FH
+ssh-mysql-sync-remote-to-local
 ==========================
 
 Simple script to backup first the function then all database using mysqldump. 
