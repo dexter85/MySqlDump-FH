@@ -7,11 +7,8 @@ I had problems making backup a MySQL database, which used the functions in views
 
 Mysqldump backup the function and procedure at the end of file, when restore database functions are not found, and and this generates errors which used the functions in views. 
 
+Mysqldump backup clear DEFINER cause these errors in the import between 2 different servers.
+
 ==========================
 
-For use this simple script:
-<pre>
-./mysqldump-fh.sh -u userName -p password -d databaseName -h host -o /output/path.sql
-</pre>
-
-Cooming Soon
+For use, you need to configure ssh for connect to remote server without password, and install 7zip. Then edit the file and insert your configuration.
